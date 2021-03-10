@@ -297,7 +297,10 @@
           <isPersisted>true</isPersisted>
           <inputSymbol>script</inputSymbol>
           <listDelimiter>,</listDelimiter>
-          <value>get-volume ${Drive}</value>
+          <value>$HTML = get-volume ${Drive}
+$HTML | Converto-HTML
+$HTML
+</value>
           <record>false</record>
         </staticBinding>
         <staticBinding id="32c37da4-1185-4e8b-86da-7a1d576e6c93">

@@ -5,4 +5,11 @@
   <groupId>DEFAULT</groupId>
   <artifactId>TUC_Lib</artifactId>
   <version>1.0.0-SNAPSHOT</version>
+  <dependencies>
+    <dependency>
+      <groupId>DEFAULT</groupId>
+      <artifactId>Base</artifactId>
+      <version>[1.9.1]</version>
+    </dependency>
+  </dependencies>
 </project>
